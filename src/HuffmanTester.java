@@ -22,7 +22,6 @@ public class HuffmanTester {
     public static final int SHAKESPEARE_MAX_RUNNING_TIME = 20;
 
     public static void main(String[] args) {
-
         InputStream in;
         PrefixCode huff = new Huffman();
 
@@ -31,7 +30,6 @@ public class HuffmanTester {
         try {
             in = new ByteArrayInputStream(STR.getBytes("US-ASCII"));
             huff.generateCode(in);
-            System.out.println(1);
         } catch (UnsupportedEncodingException e) {
             System.err.println("Unsupported encoding: US-ASCII\n" +
                     "no test performed!");

@@ -79,7 +79,7 @@ public class LinkedSimpleList<T> implements SimpleList<T>, Iterable<T> {
         size += 1;
 
         // 更新序列号
-        renewIndices();
+        // renewIndices();
     }
 
     @Override
